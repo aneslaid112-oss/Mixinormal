@@ -781,12 +781,7 @@
     </footer>
 
     <script>
-        // التحقق من صحة الاسم (أحرف عربية فقط)
-        function validateName(name) {
-            const arabicRegex = /^[\u0600-\u06FF\s]+$/;
-            return arabicRegex.test(name) && name.length >= 3;
-        }
-
+       
         // التحقق من صحة رقم الهاتف
         function validatePhone(phone) {
             const phoneRegex = /^(05|06|07)[0-9]{8}$/;
@@ -924,3 +919,4 @@
     </script>
 </body>
 </html>
+
